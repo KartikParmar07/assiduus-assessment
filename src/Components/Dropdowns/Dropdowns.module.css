@@ -1,0 +1,6 @@
+.dropdown{
+    font-size: var(--size-s);
+    font-weight: 600;
+    padding: 5px 10px;
+    border-color: var(--border);
+}

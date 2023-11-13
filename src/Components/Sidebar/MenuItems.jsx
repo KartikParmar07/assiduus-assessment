@@ -1,0 +1,2 @@
+export const items = [{name:'Dashboard',icon:'dashboard'},{name:'Accounts', icon:'wallet'},{name:'Payroll', icon:'dollar'},
+{name:'Reports', icon:'search'},{name:'Advisor', icon:'user'},{name:'Contacts', icon:'contact-card'}];
