@@ -9,7 +9,6 @@ const Bargraph = (props) => {
   const title = props.title;
   const barType = props.barType;
   const month = props.month;
-  const xdata = props.xdata;
   const differ = props.differ;
   const svgRef = useRef(null);
 
