@@ -11,7 +11,7 @@ const Dropdowns = (props) => {
     function handleChange(e){
       const data = e.target.value;
       if(callbackDiff){
-        callbackDiff(data)
+        callbackDiff(data);
       }
       else callback(data);
       
