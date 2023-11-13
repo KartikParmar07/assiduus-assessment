@@ -12,15 +12,21 @@
   --size-2:20px;
 }
 
-.container {
-  height: 100vh;
+.container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.box {
+  height: auto;
   width: 100vw;
   display: flex;
 }
 
 .box1 {
   width: 15%;
-  border: var(--border) solid 1px;
+  border-right: var(--border) solid 1px;
 }
 
 .box2 {
@@ -121,4 +127,15 @@
   height: 180vh;
 }
 
+
+}
+
+.footer{
+  height: 5vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: var(--size-1);
 }

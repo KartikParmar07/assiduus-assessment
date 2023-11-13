@@ -58,7 +58,8 @@ function App() {
 
   return (
     <>
-     <div className='container'>
+    <div className='container'>
+     <div className='box'>
         <div className='box1'>
         <Sidebar callback={menuChange}/>
         </div>
@@ -72,6 +73,10 @@ function App() {
           <DataTable title='Account Watchlist' differ={differ}/>
         </div>
         </div>
+     </div>
+     <div className='footer'>
+        <div className='watermark'>Responsive Web-Design. Created by <a href="https://www.crio.do/learn/portfolio/kartiksparmar7/" >Kartik Parmar</a></div>
+     </div>
      </div>
     </>
   );
