@@ -1,0 +1,81 @@
+.navbar {
+  border-bottom: var(--border) solid 1px;
+  height: 82px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--white);
+  /* width: 85%; */
+  /* border: 1px solid black; */
+}
+
+.searchbar{
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+}
+
+.iconBar{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.userIcons{
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.userProfile{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background:url(../../Assets/Passport\ Size.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1360px) {
+  .navbar{
+      justify-content: center;
+  }
+
+  .iconBar{
+    width: 90%;
+    justify-content: flex-end;
+    column-gap: 30px;
+  }
+
+  .userIcons{
+    width: 5%;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .navbar{
+    /* width: 100%; */
+      justify-content: center;
+  }
+
+  .iconBar{
+    width: 100%;
+    justify-content: center;
+    column-gap: 30px;
+  }
+
+  .userIcons{
+    width: 15%;
+  }
+
+  .logo{
+    width: 40%;
+}
+
+}
